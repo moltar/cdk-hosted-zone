@@ -21,6 +21,8 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
+    "@aws-cdk/aws-certificatemanager": "1.61.1",
+    "@aws-cdk/aws-route53": "1.61.1",
     "@aws-cdk/aws-sns": "1.61.1",
     "@aws-cdk/aws-sns-subscriptions": "1.61.1",
     "@aws-cdk/aws-sqs": "1.61.1",

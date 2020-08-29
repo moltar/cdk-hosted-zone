@@ -1,6 +1,7 @@
 {
   "app": "npx ts-node bin/cdk-hosted-zone.ts",
   "context": {
+    "zoneName": "",
     "@aws-cdk/core:enableStackNameDuplicates": "true",
     "aws-cdk:enableDiffNoFail": "true",
     "@aws-cdk/core:stackRelativeExports": "true"
