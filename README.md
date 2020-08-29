@@ -50,3 +50,5 @@ The stack named CdkHostedZoneStack is in a failed state. You may need to delete 
 ````
 
 To clean up you need to delete the `CNAME` record in the Hosted Zones manually.
+
+After the manual clean up you may continue to destroy using the CLI.
