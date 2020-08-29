@@ -3,6 +3,8 @@
 **Note**: for this repro you need to have a domain you have control of, where you can change
 the DNS settings for NS records.
 
+You can edit `cdk.json` and add `zoneName` there, or supply the domain name as the parameter.
+
 ```sh
 export ZONE_NAME=example.com ## set your domain here
 
